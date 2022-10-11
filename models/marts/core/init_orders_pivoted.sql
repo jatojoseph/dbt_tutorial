@@ -1,3 +1,5 @@
+-- jinja lets you use python logic in your sql code and maintain clean and simple powerful code
+
 {%- set payment_methods = ['bank_transfer','credit_card','coupon','gift_card'] -%}
  
 with payments as (
